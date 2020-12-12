@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* search in ordered vectors */
 int orderedSearch(int* v, int size, int element)
 {
     for(int i = 0; i < size; i++)
